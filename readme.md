@@ -16,9 +16,15 @@ El proyecto está desarrollado con kedro, siguiendo una arquitectura modular y r
 
 Cómo ejecutar el pipeline
 
+Iniciar entorno python(En caso de no utilizar contenedor)
+
+    python -m venv .venv
+    source .venv/bin/activate #Linux/macOS
+    .venv/Scripts/activate #Windows
+
 Instalar dependencias:
 
-    pip install -r src/requirements.txt
+    pip install -r requirements.txt
 
 Ejecutar el pipeline:
 
